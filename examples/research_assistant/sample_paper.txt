@@ -1,0 +1,24 @@
+Effects of Structured Study Breaks on Delayed Recall
+
+We investigated whether short, scheduled breaks improve delayed recall during
+independent study. Sixty volunteer students aged 16 to 18 were randomly assigned
+to one of two study schedules. The continuous-study group read a 2,400-word
+history passage for 30 minutes. The structured-break group studied the same
+passage for three 10-minute blocks separated by two-minute quiet breaks. Phones
+and reference materials were unavailable during both conditions.
+
+Participants completed a 20-question multiple-choice test immediately after
+studying and again seven days later. The immediate scores were similar: the
+continuous-study group averaged 15.1 correct answers and the structured-break
+group averaged 15.4. At seven days, the continuous-study group averaged 11.2
+correct answers, while the structured-break group averaged 13.6. The between-
+group difference in delayed scores was 2.4 questions (95% confidence interval
+1.1 to 3.7, p = 0.001).
+
+The scheduled breaks were associated with better delayed recall without a clear
+change in immediate performance. Because the study used one history passage,
+the result may not generalize to mathematical problem solving or longer study
+sessions. Volunteers came from one school, and neither participants nor test
+administrators were blinded to the assigned schedule. The study recorded test
+scores but did not measure attention directly, so it cannot determine why the
+break schedule affected recall.

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research paper extraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "research_question",
+    "methods",
+    "datasets",
+    "claims",
+    "limitations"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "research_question": {
+      "type": "string"
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description"],
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    },
+    "datasets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "size", "population"],
+        "properties": {
+          "name": {"type": "string"},
+          "size": {"type": "string"},
+          "population": {"type": "string"}
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "evidence_quote", "interpretation", "strength"],
+        "properties": {
+          "claim": {"type": "string"},
+          "evidence_quote": {"type": "string"},
+          "interpretation": {"type": "string"},
+          "strength": {
+            "type": "string",
+            "enum": ["strong", "moderate", "weak"]
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}
